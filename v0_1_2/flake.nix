@@ -11,6 +11,7 @@
   inputs.src-jhash-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-jhash-v0_1_2.owner = "mjfh";
   inputs.src-jhash-v0_1_2.repo  = "nim-jhash";
+  inputs.src-jhash-v0_1_2.dir   = "";
   inputs.src-jhash-v0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
