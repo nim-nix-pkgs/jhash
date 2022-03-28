@@ -11,7 +11,6 @@
   inputs.src-jhash-master.ref   = "refs/heads/master";
   inputs.src-jhash-master.owner = "mjfh";
   inputs.src-jhash-master.repo  = "nim-jhash";
-  inputs.src-jhash-master.dir   = "";
   inputs.src-jhash-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
